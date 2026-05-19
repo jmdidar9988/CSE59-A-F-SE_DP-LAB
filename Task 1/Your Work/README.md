@@ -1,3 +1,4 @@
+
 # Software Requirements Specification (SRS)
 
 ## Preface
@@ -150,16 +151,6 @@ ShopNow is a standalone web application built using a monolithic architecture po
 * The code framework must run across Windows, macOS, and Linux servers capable of hosting Python environments.
 
 
-
----
-
-## 4. System Models
-
-> * **CONTEXT DIAGRAM**
-<img src="images/Shop now .png" alt="ShopNow Context Model">
-
----
-
 ## 5. System Evolution
 
 ### Assumptions
@@ -195,9 +186,8 @@ The MySQL database must enforce strict relational schemas across the following t
 | **Order_Items** | Archives structural snapshots of historically purchased line items. | Links historic items directly from **Orders** to **Products**. |
 | **Payments** | Logs simulation tokens and settlement verification values. | Maps one-to-one transformations targeting verified **Orders**. |
 
----
 
-## Project Team
+## 4. System Models
 
-**Lead Systems Developer:**  
-* **Md. Masudul Hasan Akib** – [GitHub Profile](https://github.com/ak1bhasan)
+> * **CONTEXT DIAGRAM**
+<img src="images/Shop now .png" alt="ShopNow Context Model">
